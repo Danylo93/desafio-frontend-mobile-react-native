@@ -1,4 +1,3 @@
-// android/build.gradle
 
 buildscript {
     ext {
@@ -15,6 +14,6 @@ buildscript {
     dependencies {
         classpath("com.android.tools.build:gradle:4.1.0")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-        // Adicione ou verifique outras dependências necessárias
+        
     }
 }

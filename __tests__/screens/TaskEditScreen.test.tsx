@@ -25,11 +25,11 @@ describe('TaskEditScreen', () => {
       </Provider>
     );
 
-    // Busca pelo campo de título usando o placeholder
+    
     const titleInput = getByPlaceholderText('Title');
     fireEvent.changeText(titleInput, 'Updated Task 1');
 
-    // Busca pelo campo de descrição usando o placeholder
+    
     const descriptionInput = getByPlaceholderText('Description');
     fireEvent.changeText(descriptionInput, 'Updated Description 1');
 
@@ -42,7 +42,6 @@ describe('TaskEditScreen', () => {
         data: {
           title: 'Updated Task 1',
           description: 'Updated Description 1',
-          // Aqui removi "completed" porque não está sendo atualizado explicitamente no teste
         }
       })
     );

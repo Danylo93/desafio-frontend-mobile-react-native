@@ -1,4 +1,3 @@
-// src/screens/TaskCreateScreen.tsx
 
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
@@ -9,7 +8,7 @@ import { Task } from '../types';
 import Button from '../components/Button';
 
 interface TaskCreateScreenProps {
-  navigation: any; // Tipo apropriado para a prop navigation
+  navigation: any; 
 }
 
 const TaskCreateScreen: React.FC<TaskCreateScreenProps> = ({ navigation }) => {

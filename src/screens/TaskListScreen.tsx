@@ -1,5 +1,3 @@
-// src/screens/TaskListScreen.tsx
-
 import React, { useState } from 'react';
 import { FlatList, TouchableOpacity } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
